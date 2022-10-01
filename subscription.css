@@ -1,0 +1,151 @@
+
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("photo/bg2.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center ;
+    margin-left: 10px;
+
+}
+
+nav{
+    width:100%;
+    height: 80px;
+    background-color: rgba(241, 234, 234, 0.911);
+    font-family: sans-serif;
+    color: black;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:0%;
+    
+}
+
+img{
+    width: 120px;
+    height:80px;
+    border-radius: 8px;
+}
+
+.name{
+    color: coral;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+.na a{
+    text-decoration: none;
+    color:black;
+    font-size: medium;
+    font-family: sans-serif;
+    padding: 0 20px;
+    margin: 10px;
+}
+
+.na a:hover{
+    color:white;
+    background-color: coral;
+    height: 50px;
+    width:50px;
+    font-weight: bold;
+    border-radius: 8px;
+
+}
+
+.heading{
+    color: rgb(196, 190, 190);
+    max-width: 900px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    font-size:x-large;
+    font-weight:bolder;
+}
+.heading h3{
+    color:rgb(196, 190, 190) ;
+    max-width: 900px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    font-size:x-large;
+    font-weight: bolder;
+}
+.wrapper{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    /* justify-content: center; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 900px;
+    
+}
+.single-price{
+    width: 50%;
+    background: #262626;
+    float: left;
+    margin-top: 30%;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+    text-align: center;
+    transition: 0.9s;
+    
+    
+    
+
+}
+
+.price{
+    width: 125px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid #da4357;
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+.deals{
+    margin-top: 10%;
+}
+.single-price h1{
+    font-size: 18px;
+    color: #fff;
+    line-height: 3;
+    text-transform: uppercase;
+}
+.price h2{
+    font-size: 22px;
+    color: #fff;
+}
+.deals h4{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+}
+.single-price :hover{
+    background: #da4357;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 25px;
+}
+.single-price a{
+    text-decoration: none;
+    background: #da4357;
+    color: #fff;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
